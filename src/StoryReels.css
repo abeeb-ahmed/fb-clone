@@ -1,0 +1,15 @@
+.storyReels{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 33;
+}
+
+@media (max-width: 960px) {
+   .storyReels{
+       display: none;
+    
+   } 
+}

@@ -1,0 +1,50 @@
+.messageSender {
+
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px -7px rgba(0, 0, 0, .75) ;
+}
+.messageSender__top {
+    align-items: center;
+    display: flex;
+
+    flex: 0;
+    
+}
+.messageSender__top > form > button {
+    display: none;
+}
+
+.messageSender__top > form > input {
+    border: none;
+    border-width: 0;
+    background-color: #eff2f5;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 999px;
+    outline-width: 0;
+    flex: 1;
+}
+.messageSender_bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+.messengerSender__option {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+  
+}
+.messengerSender__option > h5 {
+    color: gray;
+    margin-left: 5px;
+}
+.messengerSender__option:hover {
+    cursor: pointer;
+    background-color: #eff2f5;
+    border-radius: 20px;
+}
